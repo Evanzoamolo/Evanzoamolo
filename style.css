@@ -1,0 +1,133 @@
+body{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+nav h3{
+    margin-left: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.coverimg{
+    background-image: url(images/main1.jpg);
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+.articlecover{
+    background-image: url(images/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+}
+.blogcover{
+    background-image: url(images/top1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+}
+.homeinfo{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.homeinfo button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: red;
+    width: 150px;
+    margin-top: 30px;
+}
+.center{
+    text-align: center;
+}
+.aboutus, .blog{
+    display: flex;
+}
+.aboutus div{
+    padding: 10px;
+    width: 50%;
+}
+.contactinfo{
+    display: flex;
+    border: 2px solid grey;
+    padding: 10px;
+}
+.formarea{
+    border-left: 2px solid gray;
+}
+label{
+    margin: 10px;
+    padding: 10px;
+}
+input{
+    width: 480px;
+    margin-left: 0px;
+}
+textarea{
+    width: 600px;
+    margin-left: 20px;
+}
+.btn{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: red;
+    width: 150px;
+    float: right;
+    margin-top: 30px;
+}
+.blog a{
+    text-decoration: none;
+}
+.blogarticle{
+    display: flex;
+}
+.blogarticle p{
+    margin: 10px;
+    padding: 5px;
+}
+.blogarticle img{
+    border-radius: 0 60px 0 60px;
+}
+.blogarticle div{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 50px;
+    background-color: hotpink;
+    color: white;
+}
+.footerinfo{
+    padding: 30px;
+}
+hr{
+    color: chocolate;
+    border: 2px solid chocolate;
+    width: 50%;
+    margin-bottom: 20px;
+}
